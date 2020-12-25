@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6500F4</color>
+    <color name="colorPrimaryDark">#4F98EF</color>
+    <color name="colorAccent">#efeeee</color>
+
+    <color name="darkmode_light">#313133</color>
+    <color name="darkmode_dark">#000000</color>
+    <color name="darkmode_bg">#1a1a1a</color>
+
+    <color name="lightmode_light">#ffffff</color>
+    <color name="lightmode_dark">#dcdcdc</color>
+    <color name="lightmode_bg">#efeeee</color>
+
+    <color name="Transparent">#00FFFFFF</color>
+
+</resources>

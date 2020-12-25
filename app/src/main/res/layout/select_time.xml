@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#efeeee"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="#efeeee">
+
+
+
+    <soup.neumorphism.NeumorphCardView
+        app:neumorph_shapeType="basin"
+        android:id="@+id/toolbar"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:neumorph_shadowElevation="6dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/eplioguesembold"
+            android:text="Select Timer"
+            android:textSize="20dp" />
+    </soup.neumorphism.NeumorphCardView>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="10dp"/>
+
+        <soup.neumorphism.NeumorphButton
+            android:id="@+id/ten"
+            android:src="@drawable/done"
+            style="@style/Widget.Neumorph.Button"
+            android:text="10 Minutes"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            />
+        <soup.neumorphism.NeumorphButton
+            android:id="@+id/twenty"
+            android:text="20 Minutes"
+            android:src="@drawable/cancel"
+            style="@style/Widget.Neumorph.Button"
+            android:layout_width="155dp"
+            android:layout_height="75dp"
+            />
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="10dp"/>
+
+        <soup.neumorphism.NeumorphButton
+            android:id="@+id/thirty"
+            android:src="@drawable/done"
+            style="@style/Widget.Neumorph.Button"
+            android:text="30 Minutes"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            />
+        <soup.neumorphism.NeumorphButton
+            android:id="@+id/forty"
+            android:text="40 Minutes"
+            android:src="@drawable/cancel"
+            style="@style/Widget.Neumorph.Button"
+            android:layout_width="155dp"
+            android:layout_height="75dp"
+            />
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="10dp"/>
+    </LinearLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <soup.neumorphism.NeumorphImageButton
+            app:neumorph_backgroundColor="#80FFA4"
+            app:neumorph_shadowColorLight="#D1FBD1"
+            app:neumorph_shadowColorDark="#3B7A3F"
+            android:layout_gravity="center"
+            android:layout_marginEnd="100dp"
+            android:id="@+id/done"
+            android:src="@drawable/done"
+            style="@style/Widget.Neumorph.ImageButton"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+
+            />
+        <soup.neumorphism.NeumorphImageButton
+            app:neumorph_backgroundColor="#FF8080"
+            app:neumorph_shadowColorLight="#FBD1D1"
+            app:neumorph_shadowColorDark="#7A3B3B"
+            android:layout_gravity="center"
+            android:layout_marginStart="100dp"
+            android:id="@+id/cancel"
+            android:src="@drawable/cancel"
+            style="@style/Widget.Neumorph.ImageButton"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
